@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #272044;
+  background: #411205;
 }
 
 .container {
@@ -165,6 +165,15 @@ section.secondary {
   background: #f8f8f8;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
+
+.instagram-embeds {
+  margin: 30px 0;
+}
+
 /* Footer */
 
 .grid-3-columns-with-first-narrow {
@@ -180,8 +189,8 @@ section {
 footer {
   color: white;
   background-image: linear-gradient(
-      rgba(39, 32, 68, 0.9),
-      rgba(39, 32, 68, 0.9)
+      rgba(68, 32, 32, 0.9),
+      rgba(68, 32, 32, 0.9)
     ),
     url("../images/teeks-footer.jpg");
 
@@ -268,5 +277,13 @@ footer a:hover {
 
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
