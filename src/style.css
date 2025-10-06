@@ -67,8 +67,6 @@ header a {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   object-fit: cover;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .grid-2-columns {
@@ -89,7 +87,7 @@ main h2 {
   color: #272044;
   opacity: 0.3;
   text-transform: uppercase;
-  margin-top: 75px;
+  margin-top: 20px;
 }
 
 main h3 {
@@ -107,6 +105,64 @@ main p {
   line-height: 1.5;
   color: #272044;
   opacity: 0.7;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #411205;
+  text-decoration: none;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+section.secondary {
+  background: #f8f8f8;
 }
 
 /* Footer */
